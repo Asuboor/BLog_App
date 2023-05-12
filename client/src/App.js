@@ -17,11 +17,11 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<IndexPage />} />
-          <Route path="https://blogs-app-ulti.onrender.com/login" element={<LoginPage />} />
-          <Route path="https://blogs-app-ulti.onrender.com/register" element={<RegisterPage />} />
-          <Route path="https://blogs-app-ulti.onrender.com/create" element={<CreatePost />} />
-          <Route path="https://blogs-app-ulti.onrender.com/post/:id" element={<PostPage />} />
-          <Route path="https://blogs-app-ulti.onrender.com/edit/:id" element={<EditPost />} />
+          <Route path="https://blog-app-jrzx.onrender.com/login" element={<LoginPage />} />
+          <Route path="https://blog-app-jrzx.onrender.com/register" element={<RegisterPage />} />
+          <Route path="https://blog-app-jrzx.onrender.com/create" element={<CreatePost />} />
+          <Route path="https://blog-app-jrzx.onrender.com/post/:id" element={<PostPage />} />
+          <Route path="https://blog-app-jrzx.onrender.com/edit/:id" element={<EditPost />} />
         </Route>
       </Routes>
     </UserContextProvider>
