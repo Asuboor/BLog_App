@@ -15,7 +15,7 @@ function App() {
   return (
     <UserContextProvider>
       <Routes>
-        <Route path="https://blogs-app-ulti.onrender.com/" element={<Layout />}>
+        <Route path="/" element={<Layout />}>
           <Route index element={<IndexPage />} />
           <Route path="https://blogs-app-ulti.onrender.com/login" element={<LoginPage />} />
           <Route path="https://blogs-app-ulti.onrender.com/register" element={<RegisterPage />} />
